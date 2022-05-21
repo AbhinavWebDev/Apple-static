@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: #f5f5f7;
+    width: 100%;
+    height: 50px;
+    font-size: 12pt;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin-left: 80px;
+    width: 100%;
+    display: flex;
+    color: lightgray;
+    list-style: none;
+}
+
+ul a {
+    display: flex;
+    color: lightgray;
+    padding: 15px 20px;
+
+
+    text-decoration: none;
+}
+
+
+
+.nav a:hover {
+    color: white;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.banner_0 {
+    background-color: lightgray;
+    background-size: cover;
+    height: 7vh;
+
+    margin-top: 10px;
+
+}
+
+.banner_0 p,
+.banner_0 a {
+    font-size: 12pt;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.banner_0 a:hover {
+    text-decoration: underline;
+
+}
+
+.banner_one {
+    background-color: #fbfbfd;
+    background-size: cover;
+    height: 95vh;
+    background-position-y: -150px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.banner_one h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px;
+
+}
+
+.banner_one h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 6px;
+    font-weight: 200;
+}
+
+.banner_one p,
+.banner_one p a {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: #0066CC;
+    letter-spacing: inherit;
+}
+
+.banner_one p a:hover {
+    text-decoration: underline;
+
+}
+
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.banner_two {
+    background-color: #fbfbfd;
+    background-size: cover;
+    height: 95vh;
+    background-position-y: -150px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.banner_two h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.banner_two h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 6px;
+    font-weight: 200;
+}
+
+.banner_two h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 6px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.banner_two p,
+.banner_two p a {
+    margin-left: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: #0066CC;
+    letter-spacing: inherit;
+}
+
+.banner_two p a:hover {
+    text-decoration: underline;
+
+}
+
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.banner_three {
+    display: flex;
+    background-color: #fbfbfd;
+}
+
+.banner_three .box {
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.banner_three .box a {
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+.banner_three h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px;
+    color: white;
+}
+
+.banner_three h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 6px;
+    font-weight: 200;
+    color: white;
+}
+
+
+.banner_three p,
+.banner_three p a {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: #0066CC;
+    letter-spacing: inherit;
+}
+
+.banner_three p a:hover {
+    text-decoration: underline;
+
+}
+
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*category*/
+
+.category,
+.category-2,
+.category-3 {
+    display: flex;
+}
+
+.category .box,
+.category-3 .box {
+    text-align: center;
+    height: 110vh;
+    width: 50%;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.category .box a,
+.category-2 .box a {
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+.category h1,
+.category-2 h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px;
+    color: black;
+}
+
+.category p,
+.category-2 p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: inherit;
+}
+
+.category p a,
+.category-2 p a {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: #0066CC;
+    letter-spacing: inherit;
+}
+
+.category-2 p a:hover {
+    text-decoration: underline;
+
+}
+
+#cbox1 {
+    display: block;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-image: url('images/4.jpg');
+}
+
+#cbox2 {
+    display: block;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: #f5f5f7;
+    color: black;
+
+}
+
+.category #cbox1 h1 {
+    margin-top: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 6px;
+    color: white;
+}
+
+.category #cbox1 p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+
+    color: white;
+    letter-spacing: inherit;
+
+}
+
+.category #cbox1 a {
+    text-decoration: none;
+}
+
+.category #cbox1 a:hover {
+    text-decoration: underline;
+
+}
+
+
+.category #cbox2 h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px;
+    color: black;
+}
+
+.category #cbox2 a {
+    text-decoration: none;
+}
+
+.category #cbox2 a:hover {
+    text-decoration: underline;
+
+}
+
+.category #cbox2 h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 6px;
+    color: red;
+}
+
+.category #cbox2 p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: inherit;
+}
+
+
+.center4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.category-2 .box {
+    text-align: center;
+    height: 93vh;
+    width: 50%;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#cbox3 {
+    display: block;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: #f5f5f7;
+}
+
+.category-3 #cbox3 a:hover {
+    text-decoration: underline;
+
+}
+
+#cbox4 {
+    display: block;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 50%;
+    background-color: #f5f5f7;
+
+}
+
+.category-2 h1 {
+    margin-top: 20px;
+}
+
+.category-3 #cbox4 a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.center5 {
+    margin-top: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.center6 {
+    display: block;
+    margin-top: 100;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#cbox5 {
+    display: block;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: #f5f5f7;
+}
+
+.category-3 #cbox5 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 6px;
+    color: black;
+}
+
+.category-3 #cbox5 h2 {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 100;
+    padding: 6px;
+    color: red;
+}
+
+.category-3 #cbox5 p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+
+    color: black;
+    letter-spacing: inherit;
+
+}
+
+.category-3 #cbox5 a {
+    text-decoration: none;
+}
+
+.category-3 #cbox5 a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+#cbox6 {
+    display: block;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-image: url('images/9.jpeg');
+    text-align: center;
+}
+
+
+.category-3 #cbox6  a {
+    display: flex;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    padding: 6px;
+    text-decoration: none;
+    color: #0066CC;
+    letter-spacing: inherit;
+    margin-top: 550px;
+    margin-left: 250px;
+};
+
+.category-3 #cbox6 a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(211, 211, 211, 0.8);
+    width: 100%;
+    height: 800px;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+footer .container>* {
+    font-size: 10pt;
+    color: gray;
+
+}
+
+.Colms {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Colms-1,
+.Colms-2,
+.Colms-3,
+.Colms-4,
+.Colms-5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Colms-1 h1,
+.Colms-2 h1,
+.Colms-3 h1,
+.Colms-4 h1,
+.Colms-5 h1 {
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 5px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.Colms-1 p a,
+.Colms-2 p a,
+.Colms-3 p a,
+.Colms-4 p a,
+.Colms-5 p a {
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+    line-height: 2.0;
+
+}
+
+
+
+.Colms-1 p a:hover {
+    text-decoration: underline;
+
+}
+
+.Colms-2 p a:hover {
+    text-decoration: underline;
+
+}
+
+.Colms-3 p a:hover {
+    text-decoration: underline;
+
+}
+
+.Colms-4 p a:hover {
+    text-decoration: underline;
+
+}
+
+.Colms-5 p a:hover {
+    text-decoration: underline;
+
+}
+
+
+.container p {
+    padding: 5px;
+}
+
+.End {
+    color: gray;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.End p {
+    padding: 10px;
+}
+
+.End p1 {
+    color: #0066CC;
+}
+
+.End a {
+    color: gray;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+
+
+.End a:hover {
+    text-decoration: underline;
+
+}
